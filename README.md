@@ -1,7 +1,11 @@
 ## About Th3Reverser
 
-[![Python 3.6](https://img.shields.io/badge/Python-3.6-yellow.svg)](http://www.python.org/download/)
-Th3Reverser is a python tool designed to generate reverse shell scripts and commands and exploit them using nclib module for python or NetCat.
+[![Python 3.4](https://img.shields.io/badge/Python-3.4-yellow.svg)](http://www.python.org/download/)
+Th3Reverser is a python tool designed to generate reverse shell scripts and commands and exploit them using nclib module for python.
+
+## ScreenShot
+
+![Th3Reverser](https://i.redd.it/oul1811z06f21.jpg "Th3Reverser in action")
 
 ## Recommended Python Version:
 
