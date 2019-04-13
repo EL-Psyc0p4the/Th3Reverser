@@ -53,7 +53,7 @@ def Th3Reverser_Banner():
    print("""+---------------+----------+---------------+
 | Option Number | Payloads | 	 System      |
 +---------------+----------+---------------+""")
-   print(Fore.YELLOW+"|       1	|  Python  | Windows/Linux |"+Style.RESET_ALL)
+   print(Fore.YELLOW+"|       1	|  Python  |	 Linux	   |"+Style.RESET_ALL)
    print(Fore.YELLOW+"+---------------+----------+---------------+"+Style.RESET_ALL)
    print(Fore.CYAN+"|	2	|   Perl   | Windows/Linux |"+Style.RESET_ALL)
    print(Fore.CYAN+"+---------------+----------+---------------+"+Style.RESET_ALL)
