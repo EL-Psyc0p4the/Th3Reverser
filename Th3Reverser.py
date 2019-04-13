@@ -43,16 +43,14 @@ def listening_option():
 
 def Th3Reverser_Banner():
    os.system("cls" if platform.system() == "Windows" else "clear")
-   print("""
-:::::::::::::::::::::::::::::::::::::::::::
+   print(""":::::::::::::::::::::::::::::::::::::::::::
 :::::	     *-* Th3Reverser *-*      :::::
 ::::	*-*  A Reverse Shell Tool *-*  ::::
 :::	 *-* Coded By Iyed Mejri *-*	:::
 ::   *-* Instagram: @EL_Psyc0p4the *-*   ::
 :::::::::::::::::::::::::::::::::::::::::::
 """)
-   print("""
-+---------------+----------+---------------+
+   print("""+---------------+----------+---------------+
 | Option Number | Payloads | 	 System      |
 +---------------+----------+---------------+""")
    print(Fore.YELLOW+"|       1	|  Python  | Windows/Linux |"+Style.RESET_ALL)
