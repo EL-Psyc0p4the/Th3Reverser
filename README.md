@@ -19,9 +19,8 @@ Th3Reverser currently supports **Python 3** only.
 
 ```
 NOTE: NCLIB DOESN'T WORK FOR WINDOWS YOU NEED TO INSTALL NETCAT
-download and install NetCat
-c:\[Your way to python] -m pip install colorama
-go to the directory Th3Reverser is installed and run it
+python -m pip install colorama
+python Th3Reverser.py
 ```
 
 ## Installation on Termux
